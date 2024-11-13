@@ -5,4 +5,78 @@
     width: 350px;
 }
 
-/* - Vul dit document aan met jouw eigen css! - */
+/* - Vul dit document aan met jouw eigen css! -
+   - de kleuren: oranje #DE6127, lichtgrijs #e8e8e8, donkergrijs #737373
+   - de kleuren voor de bolletjes: #faa0c7, #272729, #928471 en #c2c2b
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product {
+position: relative;
+}
+
+.hi {
+    width: 100%;
+}
+
+.favi {
+    width: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.product-images > span {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #DE6127;
+    background-color: #e8e8e8;
+    padding: 15px 35px 15px 35px;
+    display: inline-block;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 75px;
+    left: -78px;
+}
+
+p {
+   font-weight: bold;
+}
+
+p:first-child {
+    color: #737373;
+    text-transform: capitalize;
+    font-size: small;
+}
+
+/*#faa0c7, #272729, #928471 en #c2c2b*/
+
+.product-info > span {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.one {
+    background-color: #faa0c7;
+}
+
+.two {
+    background-color: #272729;
+}
+
+.three {
+    background-color: #928471;
+}
+
+.four {
+background-color: #e8e8e8;
+}
